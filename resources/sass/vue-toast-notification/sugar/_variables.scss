@@ -1,0 +1,7 @@
+$toast-colors: () !default;
+$toast-colors: map-merge(("success": $success,
+        "info": $info,
+        "warning": $warning,
+        "error": $danger,
+        "default": $dark),
+    $toast-colors);
